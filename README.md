@@ -32,3 +32,15 @@ docker compose up --build web
 
 Everything should be ready. In your browser open
 <http://127.0.0.1:5000/>
+
+Customer Endpoints
+-------------------
+
+|Method|Endpoint|Description|      
+|----|-----|-------|      
+|GET|127.0.0.1:5000/client/Restaurants|Get all restaurants| 
+|GET|127.0.0.1:5000/client/Menu/menuId|Get menu with menuId|
+|POST|127.0.0.1:5000/client/createOrder|Create an hamburger order|
+|POST|127.0.0.1:5000/client/watchOrders|Watch the order|
+|GET|127.0.0.1:5000/client/getAllOrder/userid|Shows order with <userid>|
+|GET|127.0.0.1:5000/client/cancelOrder/orderid|Cancel your order with <orderid>|
