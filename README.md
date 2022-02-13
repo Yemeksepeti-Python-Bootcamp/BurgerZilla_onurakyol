@@ -69,4 +69,4 @@ Authentication Endpoints
 
 DB Schema
 -------------------
-![alt text](https://imgyukle.com/i/EoiPzc)
+![alt text](https://imgyukle.com/f/2022/02/14/EoiPzc.png)
