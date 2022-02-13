@@ -76,6 +76,7 @@ DB Schema
 
 Folders
 -------------------
+```
 burgerzilla-main
 ├─ app
 │  ├─ api
@@ -134,3 +135,4 @@ burgerzilla-main
       ├─ base.py
       ├─ common.py
       └─ __init__.py
+```
