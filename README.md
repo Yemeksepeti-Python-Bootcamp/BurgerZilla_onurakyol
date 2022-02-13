@@ -21,6 +21,7 @@ Before we begin, kindly install following on your system:-
 
 -   [python3.x](http://www.python.org)
 -   [Virtualenv](https://virtualenv.pypa.io/en/stable/)
+
 How to Run the App?
 -------------------
 
