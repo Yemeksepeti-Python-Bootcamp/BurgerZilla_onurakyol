@@ -19,7 +19,10 @@ Before we begin, kindly install following on your system:-
 How to Run the App?
 -------------------
 
--   Git clone <https://github.com/Yemeksepeti-Python-Bootcamp/BurgerZilla_onurakyol.git>
+-   Git clone 
+```
+<https://github.com/Yemeksepeti-Python-Bootcamp/BurgerZilla_onurakyol.git>
+```
 -   Open the terminal and run,
 ```
 docker build -t burgerzilla-main:latest .
@@ -70,3 +73,64 @@ Authentication Endpoints
 DB Schema
 -------------------
 ![alt text](https://imgyukle.com/f/2022/02/14/EoiPzc.png)
+
+Folders
+-------------------
+burgerzilla-main
+├─ app
+│  ├─ api
+│  │  ├─ datasets
+│  │  │  ├─ controller.py
+│  │  │  ├─ dto.py
+│  │  │  ├─ service.py
+│  │  │  ├─ utils.py
+│  │  │  └─ __init__.py
+│  │  ├─ musteri
+│  │  │  ├─ clientService.py
+│  │  │  ├─ controller.py
+│  │  │  └─ dto.py
+│  │  ├─ restorant
+│  │  │  ├─ controller.py
+│  │  │  ├─ dto.py
+│  │  │  └─ restorantService.py
+│  │  ├─ user
+│  │  │  ├─ controller.py
+│  │  │  ├─ dto.py
+│  │  │  ├─ service.py
+│  │  │  ├─ utils.py
+│  │  │  └─ __init__.py
+│  │  └─ __init__.py
+│  ├─ auth
+│  │  ├─ controller.py
+│  │  ├─ dto.py
+│  │  ├─ service.py
+│  │  ├─ utils.py
+│  │  └─ __init__.py
+│  ├─ extensions.py
+│  ├─ models
+│  │  ├─ dataset.py
+│  │  ├─ schemas.py
+│  │  ├─ user.py
+│  │  └─ __init__.py
+│  ├─ utils.py
+│  ├─ Yemeksepeti.postman_collection.json
+│  └─ __init__.py
+├─ boot.sh
+├─ config.py
+├─ data-dev.sqlite
+├─ docker-compose.yml
+├─ Dockerfile
+├─ README.md
+├─ requirements.txt
+├─ runservice.py
+└─ tests
+   ├─ test_auth_api.py
+   ├─ test_client_api.py
+   ├─ test_config.py
+   ├─ test_restaurant_db.py
+   ├─ test_user_api.py
+   ├─ test_user_model.py
+   └─ utils
+      ├─ base.py
+      ├─ common.py
+      └─ __init__.py
