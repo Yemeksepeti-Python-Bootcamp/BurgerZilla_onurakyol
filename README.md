@@ -7,13 +7,18 @@ Taking orders from hamburger restaurants, with the order, which can view the sta
 ```
 - Flask-SQLAlchemy
 ```
+```
 - Flask-Migrate
+```
 ```
 - flask-restx
 ```
+```
 - Werkzeug
 ```
+```
 - psycopg2-binary
+```
 ```
 - flask-marshmallow
 ```
