@@ -69,4 +69,4 @@ Authentication Endpoints
 
 DB Schema
 -------------------
-![alt text](C:\Users\onur_\OneDrive\Masaüstü)
+![alt text](https://imgyukle.com/i/EoiPzc)
