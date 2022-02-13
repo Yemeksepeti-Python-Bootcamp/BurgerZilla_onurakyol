@@ -5,12 +5,17 @@ Taking orders from hamburger restaurants, with the order, which can view the sta
 
 ### Most Common Python and Flask Libraries
 ```
-Flask-SQLAlchemy
-Flask-Migrate
-flask-restx
-Werkzeug
-psycopg2-binary
-flask-marshmallow
+- Flask-SQLAlchemy
+```
+- Flask-Migrate
+```
+- flask-restx
+```
+- Werkzeug
+```
+- psycopg2-binary
+```
+- flask-marshmallow
 ```
 Before we begin, kindly install following on your system:-
 
